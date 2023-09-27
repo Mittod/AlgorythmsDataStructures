@@ -1,9 +1,13 @@
-﻿using System;
+﻿using Structures_and_Algorythms;
+using System;
 using System.Xml.Linq;
 
 namespace App // 
 {
-    public class Algorythm
+    
+        
+
+    public class Program
     {
         private static int[,] _arr = {                      // Матрица смежности для графа
             {0, 0, 3, 4, 6, 12},
@@ -20,15 +24,21 @@ namespace App //
         private int _end = 3;                               // Точка финиша, константа 4
         private static int nodesCount = _arr.GetLength(0);
         private int[] shortestDistances = new int[nodesCount];
+        static void Main(string[] args)
+        {
+            var algorythm = new Program();
+            algorythm.BSF();
+        }
+
         public void BSF()
         {
-            
+
             bool[] visited = new bool[nodesCount];             // Массив булов для посещенных вершин
-            _stack.Push(_start);                            
+            _stack.Push(_start);
             visited[_stack.Peek()] = true;                  // Первая вершина посещена
             int[] previous = new int[nodesCount];
             previous[_start] = -1;
-            
+
             for (int i = 0; i < nodesCount; i++)            // первоначальная инициализация, заполняем массивы
             {
                 shortestDistances[i] = int.MaxValue;
@@ -49,7 +59,7 @@ namespace App //
                 }
 
 
-                for (int i = 0; i < nodesCount; i++ )
+                for (int i = 0; i < nodesCount; i++)
                 {
                     if (!visited[i] && _arr[current, i] != 0)
                     {
@@ -64,7 +74,7 @@ namespace App //
                         }
                     }
                 }
-                
+
             }
             List<int> shortestPath = new List<int>();
             int node = _end;
@@ -77,21 +87,10 @@ namespace App //
             for (int i = 0; i < shortestPath.ToArray().Length; i++)
             {
                 string a = i + 1 < shortestPath.ToArray().Length ? "->" : "";
-                Console.Write(shortestPath[i] + 1 + $" {a} "  );
+                Console.Write(shortestPath[i] + 1 + $" {a} ");
             }
             return;
         }
-    }
-
-    internal class Program
-    {
-        
-        static void Main(string[] args)
-        {
-            Algorythm bsf = new Algorythm();
-            bsf.BSF();
-        }
-
-        
-    }
+    
+}
 }
