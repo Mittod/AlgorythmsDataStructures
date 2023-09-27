@@ -1,0 +1,15 @@
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\bin\Debug\net6.0\Structures and Algorythms.exe
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\bin\Debug\net6.0\Structures and Algorythms.deps.json
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\bin\Debug\net6.0\Structures and Algorythms.runtimeconfig.json
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\bin\Debug\net6.0\Structures and Algorythms.dll
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\bin\Debug\net6.0\Structures and Algorythms.pdb
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\Structures and Algorythms.csproj.AssemblyReference.cache
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\Structures and Algorythms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\Structures and Algorythms.AssemblyInfoInputs.cache
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\Structures and Algorythms.AssemblyInfo.cs
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\Structures and Algorythms.csproj.CoreCompileInputs.cache
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\Structures and Algorythms.dll
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\refint\Structures and Algorythms.dll
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\Structures and Algorythms.pdb
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\Structures and Algorythms.genruntimeconfig.cache
+C:\Users\Mittod\source\repos\Structures and Algorythms\Structures and Algorythms\obj\Debug\net6.0\ref\Structures and Algorythms.dll
